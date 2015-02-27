@@ -65,9 +65,9 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <div id="importing-the-data" class="section level4">
 <h4>Importing the Data:</h4>
 <pre class="r"><code>library(rjson)
-api_key &lt;- &quot;6B8C5A5F8438A43948FD7CF512AF1AD1&quot;
+api_key &lt;- &quot;XXXXXXXXXXXXXXX&quot;
 url &lt;- paste(&quot;http://api.eia.gov/series/?api_key=&quot;,
-             api_key,&quot;&amp;series_id=STEO.DSRTUUS.M&quot;,sep=&quot;&quot;)
+             api_key,&quot;&amp;series_id=XXXXXXXXXXX&quot;,sep=&quot;&quot;)
 raw_json &lt;- scan(url,&quot;&quot;,sep=&quot;\n&quot;)
 mydata &lt;- fromJSON(raw_json)</code></pre>
 </div>
